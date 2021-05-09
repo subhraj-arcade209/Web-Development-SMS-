@@ -1,0 +1,271 @@
+body{
+    background-image:url(https://images.wallpapersden.com/image/download/4k-natural-gradient_a2xsZmiUmZqaraWkpJRobWllrWdma2U.jpg);
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+#header{
+    height: 10%;
+    width: 100%;
+    top: 2%;
+    background-color:#900C3F;
+    position: fixed;
+    color: white;
+    font-family:'Brush Script MT', cursive;
+    color:#E1D309;
+	text-shadow: 1.4px 1.4px black;
+	font-size:20px;
+}
+#left_side{
+    height: 75%;
+    width: 15%;
+    top: 10%;
+    position: fixed;
+}
+
+#right_side{
+    height: 75%;
+    width: 80%;
+    background:url(https://media.giphy.com/media/xUPGcy1FyBkTomZH8I/giphy.gif);
+    position: fixed;
+    background-repeat: no-repeat;
+    left: 17%;
+    top: 21%;
+    color:#A3F60E;
+    background-size: 100%;
+    border: solid 3px black;
+}
+.form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+#top_span{
+    top: 15%;
+    width: 80%;
+    left: 17%;
+    position: fixed;
+    color:#FFC300;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    text-shadow: 0 1.5px #3F3B04 ;
+}
+#top_span:hover{
+    top: 15%;
+    width: 80%;
+    left: 17%;
+    position: fixed;
+    color:#04D5A6;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    transform: translateY(4px);
+}
+#td{
+    border: 1px solid black;
+    padding-left: 2px;
+    text-align: left;
+    width: 200px;
+}
+#videoBG{
+    position:fixed;
+}
+#header a:link,a:visited{
+    background-color:#C70039;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:white;
+    font-family: Georgia, serif;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px #111002 ;
+}
+  
+#header a:active,a:hover{
+    background-color:#FF5733;
+    color:#00D9F4;
+    transform: translateY(3px);
+    box-shadow: 0 3px #3F3B04 ;
+  }
+input[type=submit] {
+    background-color:#900C3F;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 5px black ;
+    font-family: Garamond, serif;
+  }
+input[type=submit]:hover{
+    background-color:#A52209;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px black ; 
+  }
+input[type=submit]:active{
+    background-color: #9F0D98 ;
+    box-shadow: 0 3px #030100 ;
+    transform: translateY(5px);
+  }body{
+    background-image:url(https://images.wallpapersden.com/image/download/4k-natural-gradient_a2xsZmiUmZqaraWkpJRobWllrWdma2U.jpg);
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}   
+#header{
+    height: 10%;
+    width: 100%;
+    top: 2%;
+    background-color:#900C3F;
+    position: fixed;
+    color: white;
+    font-family:'Brush Script MT', cursive;
+    color:#E1D309;
+		text-shadow: 1.4px 1.4px black;
+		font-size:20px;
+
+}
+#left_side{
+    height: 75%;
+    width: 15%;
+    top: 10%;
+    position: fixed;
+}
+
+#right_side{
+    height: 75%;
+    width: 80%;
+    background:url(https://media.giphy.com/media/xUPGcy1FyBkTomZH8I/giphy.gif);
+    position: fixed;
+    background-repeat: no-repeat;
+    left: 17%;
+    top: 21%;
+    color:#A3F60E;
+    background-size: 100%;
+    border: solid 3px black;
+}
+.form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+#top_span{
+    top: 15%;
+    width: 80%;
+    left: 17%;
+    position: fixed;
+    color:#FFC300;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    text-shadow: 0 1.5px #3F3B04 ;
+}
+#top_span:hover{
+    top: 15%;
+    width: 80%;
+    left: 17%;
+    position: fixed;
+    color:#04D5A6;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    transform: translateY(4px);
+}
+#td{
+    border: 1px solid black;
+    padding-left: 2px;
+    text-align: left;
+    width: 200px;
+}
+#videoBG{
+    position:fixed;
+}
+#header a:link,a:visited{
+    background-color:#C70039;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:white;
+    font-family: Georgia, serif;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px #111002 ;
+}
+  
+#header a:active,a:hover{
+    background-color:#FF5733;
+    color:#00D9F4;
+    transform: translateY(3px);
+    box-shadow: 0 3px #3F3B04 ;
+  }
+input[type=submit] {
+    background-color:#900C3F;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 5px black ;
+    font-family: Garamond, serif;
+  }
+input[type=submit]:hover{
+    background-color:#A52209;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px black ; 
+  }
+input[type=submit]:active{
+    background-color: #9F0D98 ;
+    box-shadow: 0 3px #030100 ;
+    transform: translateY(5px);
+  }

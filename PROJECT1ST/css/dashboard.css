@@ -1,0 +1,108 @@
+body{
+    background-image: url();
+}   
+#header{
+    height: 10%;
+    width: 100%;
+    top: 2%;
+    background-color:brown;
+    position: fixed;
+    color: white;
+}
+#left_side{
+    height: 75%;
+    width: 15%;
+    top: 10%;
+    position: fixed;
+}
+
+#right_side{
+    height: 75%;
+    width: 80%;
+    background-color: whitesmoke;
+    position: fixed;
+    left: 17%;
+    top: 21%;
+    color: red;
+    border: solid 1px black;
+}
+#top_span{
+    top: 15%;
+    width: 80%;
+    left: 17%;
+    position: fixed;
+    color:#086DA5;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    text-shadow: 0 1.5px #3F3B04 ;
+}
+#top_span:hover{
+    top: 15%;
+    width: 80%;
+    left: 17%;
+    position: fixed;
+    color:green;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    transform: translateY(4px);
+}
+#td{
+    border: 1px solid black;
+    padding-left: 2px;
+    text-align: left;
+    width: 200px;
+}
+#header a:link, a:visited {
+    background-color: #FFC300;
+    color:black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:#010300 ;
+    font-family: Georgia, serif;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px #3F3B04 ;
+}
+  
+#header a:hover, a:active {
+    background-color:#08A55C;
+    color: cornsilk;
+    transform: translateY(3px);
+    box-shadow: 0 3px #3F3B04 ;
+  }
+input[type=submit] {
+    background-color:#900C3F;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 5px black ;
+    font-family: Garamond, serif;
+  }
+input[type=submit]:hover{
+    background-color:#A52209;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px black ; 
+  }
+input[type=submit]:active{
+    background-color: #9F0D98 ;
+    box-shadow: 0 3px #030100 ;
+    transform: translateY(5px);
+  }

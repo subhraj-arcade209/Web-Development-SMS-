@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 6px 15px;
+  margin: 6px auto;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://image.freepik.com/free-photo/different-stationery-supplies-dark-table-creative-educational-background-website-with-color-pencils-paints-black-wooden-desk-back-school-concept-1-september-top-view-copy-space_203461-73.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-family: 'Permanent Marker';
+  text-shadow: 0 6px black;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+  
+}
+.facility td{
+  width:400px; 
+  height:400px; 
+  background-image:url("https://torange.biz/photofxnew/186/HD/layout-banner-design-responsive-business-brochure-template-infographic-new-background-186866.jpg");
+  text-align:center; 
+}
+.logo {
+  width: 200px;
+  margin-top:-90px;
+  margin-left:-100px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  padding-left:50px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color:#3604C3;
+  font-family: 'Margarine';
+  font-size: 25px;
+  text-shadow: 0 2px black ;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  width: 85%;
+  height:85%;
+
+  
+}
+
+.lesson-icon {
+  position: relative;
+  width:300px; 
+  height:200px;
+}
+.lesson-icon img{
+  position: relative;
+  margin-top:1px;
+  width:285px; 
+  height:200px;
+  border:solid 2px #05CED6;
+  border-radius: 5px;
+}
+
+.lesson-icon h3 {
+  position: absolute;
+  top:130px;
+  width: 100%;
+  padding-left:1px;
+  padding-top:20px;
+  color: white;
+  text-shadow: 0 2px #3F3B04 ;
+}
+
+.txt-contents {
+  width: 70%;
+  display: flex;
+  font-size: 15px;
+  color:#F2F1DC;
+  font-family: 'Amaranth';
+  position:center;
+  padding-left:70px;
+}
+.heading h3 {
+  font-weight: normal;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: -1px 1px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  size:20px;
+}
+
+.fa-github {
+  background: green;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background:#C3048E;
+  color: white;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  background-color: #045023;
+  cursor: pointer;
+  box-shadow: 0 7px #033316;
+  color:black;
+  font-size:20px;
+  border-radius:10px;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  transform: translateY(4px);
+}
